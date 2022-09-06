@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.link-container {
+    display: flex;
+    margin-right: 10px;
+}
