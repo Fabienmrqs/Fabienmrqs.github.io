@@ -1,0 +1,3 @@
+[submodule "Sebaclean"]
+	path = Sebaclean
+	url = https://github.com/Fabienmrqs/Sebaclean.git
