@@ -1,6 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(270deg, #8478B3 0%, #D55ED4 33.18%, #ED805F 72.97%, #EED3A0 100%);
+    background-size: 400% 400%;
+
+    animation: gradient 15s ease infinite;
+    cursor: url("assets/img/cursor.png"), pointer;
+}
+
+.project-body {
+    background: #161616 !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 159px;
+    padding-top: 22px;
+}
+
+.ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 31px;
+    font-weight: 600;
+}
+.nav-link{
+    display: flex;
+}
+
+.nav-a {
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 32px;
+    color: #F2F2F2;
+    font-size: 17px;
 }
 
 .link-container {
@@ -11,3 +75,276 @@
 .link {
     margin-right: 10px;
 }
+
+.ide {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1120px;
+    height: 617px;  
+    background-color: #151515;
+    border-radius: 3px;
+}
+
+.ide-buttons {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.ide-btn-red {
+    border: 1px solid #E96451
+    ;
+    width: 8px;
+    height: 8px;
+    background: #E96451;
+    border-radius: 10px;
+
+}
+
+.ide-btn-orange {
+    border: 1px solid #F4B840;
+    width: 8px;
+    height: 8px;
+    background: #F4B840;
+    border-radius: 10px;
+    margin-left: 7px
+}
+
+.ide-btn-green {
+    border: 1px solid #55BE42;
+    width: 8px;
+    height: 8px;
+    background: #55BE42;
+    border-radius: 10px;
+    margin-left: 7px;
+}
+
+.ide-white-line {
+    border: 0.5px solid #F5F5F5;
+    opacity: 0.5;
+    margin-top: 16px;
+
+}
+
+.first-block {
+    position: absolute;
+    top : 70px
+}
+
+.second-block {
+    position: absolute;
+    top : 313px
+}
+.ide-numbers-container {
+    margin-left: 29px;
+}
+.numbers {
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 13px;
+    font-size: 12px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+}
+
+.ide-vertical-line {
+    position: absolute;
+    border: 0.5px solid #F5F5F5;
+    opacity: 0.5;
+    transform: rotate(90deg);
+    width: 502px;
+    bottom: 296px;
+    left: -196px;
+}
+
+.overview{
+    color: #FFFBFE;
+    opacity: 0.5;
+    margin-top: 68px;
+    margin-left: 85px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #FFFBFE;
+    font-family: 'Epilogue', sans-serif;
+    padding-top: 80px;
+    margin-left: 85px;
+    letter-spacing: 0.1em;
+}
+
+.nickname-container {
+    display: flex;
+    padding-top: 7px;
+}
+
+.nickname {
+    animation:typing 3.5s steps(30, end),
+    white-caret .5s step-end infinite;
+    overflow: hidden;
+    margin-left: 85px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    background: linear-gradient(270deg, #8478B3 0%, #D55ED4 33.18%, #ED805F 72.97%, #EED3A0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap; 
+    border-right: 2.5px solid orange; /* The typwriter cursor */
+    font-weight: 800;
+}
+
+@keyframes white-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+
+.nickname-bar {
+    border: 2.5px solid #F5F5F5;
+    margin-left: 10px;
+}
+
+.text-sub-nickname{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    color: #FFFBFE;
+    max-width: 650px;
+    margin-left: 85px;
+    line-height: 25px;
+}
+
+.last-text {
+    color: #FFFBFE;
+    opacity: 0.5;
+    margin-top: 107px;
+    margin-left: 85px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+}
+
+.arrow-container {
+    display: flex;
+    margin-left: 85px;
+    color: #FFFBFE;
+    opacity: 0.5;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 6px;
+}
+.purple {
+   color: #D55ED4;
+}
+
+.orange {
+    color: #ED805F;
+}
+
+.blue {
+    color: #8478B3;
+}
+
+.ide-btn {
+        position: absolute;
+        bottom: -15px;
+        right: 45px;
+        display:inline-flex;
+        width: 207px;
+        height: 48px;
+        background: #BDBDBD;
+        color: #222222;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 24px;
+        margin-top: 32px;
+        font-weight: 400;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        border-right: 3px solid #5F5F5F;
+        border-bottom: 3px solid #5F5F5F;
+        border-top: 1px solid #A8A8A8        ;
+        border-left: 1px solid #A8A8A8        ;
+}
+
+.home-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 43px;
+    background: linear-gradient(270deg, #8478B3 43%, #D55ED4 33.18%, #ED805F 53.97%, #EED3A0 61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.change-project {
+    display: flex;
+    align-items: center;
+}
+
+.project-back {
+    display: flex;
+    font-weight: 600;
+    background: linear-gradient(270deg, #8478B3 66%, #EED3A0 100%);
+    background-size: 200%;
+    background-position: 0% center;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-box-decoration-break: clone;
+      letter-spacing: 0.1em;
+      margin-left: 160px;
+      margin-right: 694px;
+
+}
+
+.project-back:hover {
+    background-position: 100% center;
+}
+
+.project-arrow-logo {
+    height: 18px;
+}
+
+.project-back-text {
+    font-family: 'Epilogue';
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.project-next {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    background: radial-gradient(100% 439.48% at 90% 51.72%, #E47056 52%, #E476B4 63.45%); 
+    background-size: 200%;
+    background-position: 0% center;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-box-decoration-break: clone;
+      letter-spacing: 0.1em;
+
+}
+
+.project-next-text {
+    font-family: 'Epilogue';
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.project-next:hover {
+    background-position: 100% center;
+}
+
+
