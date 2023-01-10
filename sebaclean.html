@@ -21,18 +21,31 @@
         </nav>
     </header>
 
-    <div class="home-container">
-        <div class="home-title">{SEBACLEAN}</div>
-        <div class="change-project">
-            <div class="project-back">
-                <img src="./assets/img/arrow-right-circle 2.svg" alt="">
-                <div class="project-back-text">PROJET PRÉCÉDENT</div>
-            </div>
-            <div class="project-next">
-                <div class="project-next-text">PROJET SUIVANT</div>
-                <img src="./assets/img/arrow-right-circle 1.svg" alt="">
+  <div class="change-project">
+        <div id="back" class="project-back">
+            <img src="./assets/img/arrow-right-circle 2.svg" alt="">
+            <div class="project-back-text">PROJET PRÉCÉDENT</div>
         </div>
+        <div id="next" class="project-next">
+            <div class="project-next-text">PROJET SUIVANT</div>
+            <img src="./assets/img/arrow-right-circle 1.svg" alt="">
     </div>
-    
+</div>
+
+    <div id="slider" class="home-container">
+        <section class="sebaclean-page">
+            <div class="home-title">{SEBACLEAN}</div>
+        </section>
+
+        <section class="avation-page">
+            <div class="home-title">{AVATION}</div>
+        </section>
+
+        <section class="LastMinuteOutfit">
+            <div class="home-title">{LASTMINUTEOUTFIT}</div>
+        
+        </section>
+    </div>
+    <script src="./carousel.js"></script>
 </body>
 </html>

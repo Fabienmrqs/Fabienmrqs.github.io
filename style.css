@@ -287,6 +287,11 @@ body{
     background-clip: text;  
     text-align: center;
     letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+
+    transform: translate(-50%, -50%);
 }
 
 .change-project {
@@ -347,4 +352,17 @@ body{
     background-position: 100% center;
 }
 
+.home-container {
+    position: relative;
+}
 
+.home-container section {
+    opacity: 0;
+    z-index: 0;
+    transition: all 2s;
+}
+
+.home-container section:nth-child(1){
+    z-index: 1;
+    opacity: 1;
+}
