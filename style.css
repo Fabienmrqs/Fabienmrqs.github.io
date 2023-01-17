@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+
 
 * {
     margin: 0;
@@ -281,14 +283,14 @@ body{
     font-weight: 800;
     font-size: 42px;
     line-height: 43px;
-    background: linear-gradient(270deg, #8478B3 43%, #D55ED4 33.18%, #ED805F 53.97%, #EED3A0 61%);
+    background: linear-gradient(270deg, #8478B3 17%, #D55ED4 33.18%, #ED805F 53.97%, #EED3A0 88%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;  
     text-align: center;
     letter-spacing: 0.1em;
     position: absolute;
-    top: 50%;  
+    top: -69px;
     left: 50%; 
 
     transform: translate(-50%, -50%);
@@ -297,6 +299,20 @@ body{
 .change-project {
     display: flex;
     align-items: center;
+    margin-top: 100px;
+}
+
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+.bubble{
+    height: 12px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 12px;
+    margin-right: 8px;
 }
 
 .project-back {
@@ -365,4 +381,44 @@ body{
 .home-container section:nth-child(1){
     z-index: 1;
     opacity: 1;
+}
+
+.img-mac-container {
+    position: absolute;
+    left: 50%; 
+    top: 280px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.macbook-img {
+    height: 600px;
+    width: 1000px;
+}
+
+.home-box{
+    width: 313px;
+    height: 280px;
+    background-color: #BDBDBD;
+}
+
+.header-box {
+    background-color: #8478B3;
+}
+
+.header-box-title {
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.box-title {
+    font-family: 'Verdana';
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 16px;
 }
