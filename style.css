@@ -332,6 +332,7 @@ body{
       letter-spacing: 0.1em;
       margin-left: 160px;
       margin-right: 694px;
+      z-index: 1;
 
 }
 
@@ -360,7 +361,7 @@ body{
       -webkit-background-clip: text;
       -webkit-box-decoration-break: clone;
       letter-spacing: 0.1em;
-
+      z-index: 1;
 }
 
 .project-next-text {

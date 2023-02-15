@@ -86,8 +86,20 @@ ul {
 }
 
 .border-blurr {
-    margin-left: 60px;
+    position: relative;
     margin-top: 100px;
+    border: 1px solid;
+    color: white;
+    background-color: transparent;
+    height: 314px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom left, #ffff, #0D0D0F);
+    width: 785px;
+   border-width: 1px;
+   left: -1px;
+   bottom: 1px;
 }
 
 .container-flex {
@@ -95,20 +107,29 @@ ul {
 }
 
 .border-blurr-img {
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: -40px;
+    left: 60px;
 }
 
 .border-blurr-title {
+    position: absolute;
+    left: 250px;
     display: flex;
     color: white;
     font-family: 'Iceberg';
     font-size: 50px;
     align-items: end;
     margin-left: 10px;
+    top: 80px;
 }
 
 .border-blurr-text {
+    position: absolute;
+    left: 60px;
+    top: 168px;
     color: white;
     font-family: 'Avenir';
     font-weight: 300;
@@ -117,24 +138,12 @@ ul {
     padding-top: 15px;
 }
 
-.border-blurr-block {
-    border: 1px solid;
-    color: white;
-    background-color: transparent;
-    padding: 135px 1px;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to bottom left, #ffff, #0D0D0F);
-    width: 785px;
-   border-width: 1px;
-   position: absolute;
-   z-index: -1;
-   left: 1px;
-   bottom: 1px;
-}
+
 
 .d-container{
+    position: absolute;
+    left: 60px;
+    top: 230px;
     font-family: 'Avenir';
     padding-top: 40px;
 }
