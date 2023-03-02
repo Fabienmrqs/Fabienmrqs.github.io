@@ -46,7 +46,7 @@ body{
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 160px;
+    margin: 0 11%;
     padding-top: 22px;
 }
 
@@ -306,6 +306,9 @@ body{
     display: flex;
     align-items: center;
     margin-top: 100px;
+    justify-content: space-between;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 .bubble-container {
@@ -331,8 +334,7 @@ body{
       -webkit-background-clip: text;
       -webkit-box-decoration-break: clone;
       letter-spacing: 0.1em;
-      margin-left: 160px;
-      margin-right: 694px;
+    
       z-index: 1;
 
 }
@@ -349,6 +351,17 @@ body{
     font-family: 'Epilogue';
     font-size: 18px;
     margin-left: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .project-back-text {
+        font-family: 'Epilogue';
+        font-size: 10px;
+        margin-right: 8px;
+        display: flex;
+        text-align: right;
+        align-items: center;
+    }
 }
 
 .project-next {
@@ -371,6 +384,16 @@ body{
     margin-right: 8px;
 }
 
+@media screen and (max-width: 800px) {
+    .project-next-text {
+        font-family: 'Epilogue';
+        font-size: 10px;
+        margin-right: 8px;
+        display: flex;
+        text-align: right;
+        align-items: center;
+    }
+}
 .project-next:hover {
     background-position: 100% center;
 }
@@ -398,9 +421,26 @@ body{
     z-index: -1;
 }
 
+@media screen and (max-width: 800px) {
+    .img-mac-container {
+        position: absolute;
+        left: 50%; 
+        bottom: 50%;
+        transform: translate(-95%, -50%);
+        z-index: -1;
+    }
+}
+
 .macbook-img {
     height: 600px;
     width: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+    .macbook-img {
+        height: 265px;
+        width: 190%;
+    }
 }
 
 .home-box{
@@ -410,6 +450,16 @@ body{
     position: absolute;
     right: 130px;
     top: 162px;
+}
+
+@media screen and (max-width: 800px) {
+    .home-box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 13%);
+       height: 230px;
+       width: 79%;
+    }
 }
 
 .header-box {
@@ -442,10 +492,30 @@ body{
 
 }
 
+@media screen and (max-width: 800px) {
+    .box-description {
+        font-family: 'Epilogue';
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 16px;
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+}
+
 .box-button-container {
     text-align: end;
     margin-right: 25px;
     margin-top: 45px;
+}
+
+@media screen and (max-width: 800px) {
+    .box-button-container {
+        position: absolute;
+        right: 0;
+        bottom: 22px;
+    }
 }
 
 .box-button-link {
