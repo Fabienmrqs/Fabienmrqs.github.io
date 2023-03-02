@@ -74,6 +74,15 @@ body{
     font-size: 17px;
 }
 
+@media screen and (max-width: 800px) {
+    .nav-a {
+        font-family: 'Epilogue', sans-serif;
+        margin-left: 32px;
+        color: #F2F2F2;
+        font-size: 13px;
+    }
+}
+
 .link-container {
     display: flex;
     margin-right: 10px;
