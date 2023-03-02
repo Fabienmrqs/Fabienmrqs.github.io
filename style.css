@@ -307,8 +307,28 @@ body{
     position: absolute;
     top: -69px;
     left: 50%; 
-
     transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 800px) {
+    .home-title {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 29px;
+        line-height: 43px;
+        background: linear-gradient(270deg, #8478B3 17%, #D55ED4 33.18%, #ED805F 53.97%, #EED3A0 88%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;  
+        text-align: center;
+        letter-spacing: 0.1em;
+        position: absolute;
+        top: -69px;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
 }
 
 .change-project {
