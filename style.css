@@ -288,8 +288,8 @@ body{
         text-transform: uppercase;
         border-right: 3px solid #5F5F5F;
         border-bottom: 3px solid #5F5F5F;
-        border-top: 1px solid #A8A8A8        ;
-        border-left: 1px solid #A8A8A8        ;
+        border-top: 1px solid #A8A8A8;
+        border-left: 1px solid #A8A8A8;
 }
 
 .home-title {
@@ -524,10 +524,10 @@ body{
 @media screen and (max-width: 800px) {
     .box-description {
         font-family: 'Epilogue';
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
         padding-top: 16px;
-        font-size: 14px;
+        font-size: 11px;
         line-height: 20px;
     
     }
@@ -565,5 +565,108 @@ body{
     font-size: 42px;
     font-family: 'Epilogue';
     letter-spacing: 0.1em;
+
+}
+
+/* Mobile first css about page */
+
+.img-profile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    height: 191px;
+    width: 191px;
+    margin-top: 6%;
+}
+
+.resume-btn-container {
+    display:inline-flex;
+    width: 210px;
+    height: 35px;
+    background: #BDBDBD;
+    color: #222222;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    margin-top: 32px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-right: 3px solid #5F5F5F;
+    border-bottom: 3px solid #5F5F5F;
+    border-top: 1px solid #A8A8A8;
+    border-left: 1px solid #A8A8A8;
+    background-color: #8478B3;
+}
+
+.resume-btn-link {
+    color: #FFFFFF;
+}
+
+.resume-center-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-text-container{
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.resume-text {
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0.05em;
+color: #F5F5F5;
+}
+
+.education {
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.education-title {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+background-size: 100%;
+background: linear-gradient(270deg, #8478B3 0%, #D55ED4 62.18%, #ED805F 93.97%, #EED3A0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.education-text {
+margin-top: 8%;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0.05em;
+color: #F5F5F5;
+}
+
+.skills-1 {
+    width: 358px;
+    height: 225px;
+    background-color: #BDBDBD;
+}
+
+.skills-1-header {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #E47056;
 
 }
