@@ -363,9 +363,7 @@ body{
       -webkit-background-clip: text;
       -webkit-box-decoration-break: clone;
       letter-spacing: 0.1em;
-    
       z-index: 1;
-
 }
 
 .project-back:hover {
@@ -529,7 +527,6 @@ body{
         padding-top: 16px;
         font-size: 11px;
         line-height: 20px;
-    
     }
 }
 
@@ -565,7 +562,6 @@ body{
     font-size: 42px;
     font-family: 'Epilogue';
     letter-spacing: 0.1em;
-
 }
 
 /* Mobile first css about page */
@@ -618,7 +614,7 @@ body{
 }
 
 .resume-text {
-    font-family: 'Epilogue';
+font-family: 'Epilogue';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -668,5 +664,4 @@ color: #F5F5F5;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #E47056;
-
 }
