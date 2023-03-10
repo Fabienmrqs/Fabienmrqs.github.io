@@ -662,4 +662,12 @@ color: #F5F5F5;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #E47056;
+    font-size: 12px;
+}
+
+
+
+.skill-link {
+    font-size: 12px;
+    margin-left: 2%;
 }
