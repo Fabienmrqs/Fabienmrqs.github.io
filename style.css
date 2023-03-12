@@ -752,6 +752,19 @@ color: #F5F5F5;
     border-bottom: 1px solid #5F5F5F;
 }
 
+@media screen and (min-width: 1024px) {
+    .skills-1 {
+        background-color: #BDBDBD;
+        margin-right: 0;
+        width: 191px;
+        height: 317px;
+        border-top: 1px solid #DFDFDF;
+        border-left: 1px solid #DFDFDF;
+        border-right: 1px solid #5F5F5F;
+        border-bottom: 1px solid #5F5F5F;
+    }
+}
+
 .skills-container {
     margin-top: 10%;
     position: relative;
@@ -798,6 +811,21 @@ color: #F5F5F5;
     border-left: 1px solid #DFDFDF;
     border-right: 1px solid #5F5F5F;
     border-bottom: 1px solid #5F5F5F;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-2 {
+        position: absolute;
+        width: 179px;
+        height: 151px;
+        background-color: #BDBDBD;
+        bottom: 13px;
+        left: 160px;
+        border-top: 1px solid #DFDFDF;
+        border-left: 1px solid #DFDFDF;
+        border-right: 1px solid #5F5F5F;
+        border-bottom: 1px solid #5F5F5F;
+    }
 }
 
 .skills-2-header {
