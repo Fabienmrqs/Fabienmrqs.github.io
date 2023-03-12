@@ -622,8 +622,8 @@ color: #F5F5F5;
 }
 
 .education {
-    margin-right: 8%;
-    margin-left: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
     margin-top: 10%;
 }
 
@@ -653,21 +653,125 @@ color: #F5F5F5;
 }
 
 .skills-1 {
-    width: 358px;
-    height: 225px;
     background-color: #BDBDBD;
+    margin-right: 46%;
+    border-top: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #5F5F5F;
+    border-bottom: 1px solid #5F5F5F;
+}
+
+.skills-container {
+    margin-top: 10%;
+    position: relative;
 }
 
 .skills-1-header {
-    margin-top: 2%;
-    margin-bottom: 2%;
     background-color: #E47056;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 12%;
+}
+
+.skill-link {
+    font-size: 14px;
+    margin-left: 13%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    margin-top: 10%;
+    font-weight: 400;
+}
+
+.skill-link-last {
+    font-size: 14px;
+    margin-left: 13%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    margin-top: 10%;
+    font-weight: 400;
+    padding-bottom: 10%;
 }
 
 
+.skills-2 {
+    position: absolute;
+    width: 179px;
+    height: 151px;
+    background-color: #BDBDBD;
+    bottom: 13px;
+    right: 11px;
+    border-top: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #5F5F5F;
+    border-bottom: 1px solid #5F5F5F;
+}
 
-.skill-link {
-    font-size: 12px;
-    margin-left: 2%;
+.skills-2-header {
+    background-color: #BD66CB;
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+}
+
+.experiences {
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.experiences-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    background-size: 100%;
+    background: linear-gradient(270deg, #8478B3 0%, #D55ED4 62.18%, #ED805F 93.97%, #EED3A0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.experiences-detail-container-first {
+        margin-top: 5%;
+ }
+
+ .experiences-detail-container {
+    margin-top: 7%;
+}
+
+.experiences-detail-name {
+    color: #E47056;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.experiences-detail-post {
+    color: #E47056;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.experiences-detail-text {
+    margin-top: 3%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #F5F5F5;
 }
