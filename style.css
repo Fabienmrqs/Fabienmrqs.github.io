@@ -569,10 +569,35 @@ body{
     justify-content: center;
 }
 
+@media screen and (min-width: 1024px) {
+    .img-profile-container {
+        display: flex;
+        justify-content: left;
+        margin-left: 11%;
+    }
+}
+
 .profile-img {
     height: 191px;
     width: 191px;
     margin-top: 6%;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile-img {
+        height: 191px;
+        width: 191px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .resume {
+        display: flex;
+       margin-top: 80px;
+       position: relative;
+
+    }
 }
 
 .resume-btn-container {
@@ -605,10 +630,25 @@ body{
     justify-content: center;
 }
 
+@media screen and (min-width: 1024px) {
+    .resume-center-btn {
+        position: absolute;
+        bottom: -20px;
+        left: 195px;
+    }
+}
+
 .resume-text-container{
     margin-top: 10%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+@media screen and (min-width: 1024px) {
+    .resume-text-container{
+        margin-top: 0;
+        margin-left: 6%;
+    }
 }
 
 .resume-text {
@@ -621,10 +661,30 @@ letter-spacing: 0.05em;
 color: #F5F5F5;
 }
 
+@media screen and (min-width: 1024px) {
+    .resume-text {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #F5F5F5;
+        max-width: 742px;
+        }
+}
+
 .education {
     margin-right: 4%;
     margin-left: 4%;
     margin-top: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+    .education {
+        margin-left: 11%;
+        margin-top: 5%;
+    }
 }
 
 .education-title {
@@ -641,6 +701,23 @@ background-clip: text;
 text-fill-color: transparent;
 }
 
+@media screen and (min-width: 1024px) {
+    .education-title {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        background-size: 100%;
+        background: linear-gradient(270deg, #8478B3 0%, #D55ED4 62.18%, #ED805F 93.97%, #EED3A0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        }
+}
+
+
 .education-text {
 margin-top: 8%;
 font-family: 'Epilogue';
@@ -650,6 +727,20 @@ font-size: 14px;
 line-height: 25px;
 letter-spacing: 0.05em;
 color: #F5F5F5;
+}
+
+@media screen and (min-width: 1024px) {
+    .education-text {
+        margin-top: 2%;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #F5F5F5;
+        max-width: 667px;
+        }
 }
 
 .skills-1 {
@@ -745,6 +836,12 @@ color: #F5F5F5;
 
  .experiences-detail-container {
     margin-top: 7%;
+}
+
+.experiences-detail-container-last {
+    margin-top: 7%;
+
+    margin-bottom: 10%;
 }
 
 .experiences-detail-name {
