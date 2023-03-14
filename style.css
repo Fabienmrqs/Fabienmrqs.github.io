@@ -819,7 +819,7 @@ color: #F5F5F5;
         width: 179px;
         height: 151px;
         background-color: #BDBDBD;
-        bottom: 13px;
+        bottom: 179px;
         left: 160px;
         border-top: 1px solid #DFDFDF;
         border-left: 1px solid #DFDFDF;
@@ -899,4 +899,14 @@ color: #F5F5F5;
     line-height: 25px;
     letter-spacing: 0.05em;
     color: #F5F5F5;
+}
+
+.experience-desktop {
+    margin-top: 10%;
+    margin-left: 18%;
+    max-width: 53%;
+}
+
+.flex-container {
+    display: flex;
 }
