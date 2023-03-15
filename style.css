@@ -844,6 +844,12 @@ color: #F5F5F5;
     margin-right: 4%;
 }
 
+@media screen and (min-width: 1024px) {
+    .experiences {
+        display: none;
+    }
+}
+
 .experiences-title {
     font-family: 'Epilogue';
     font-style: normal;
