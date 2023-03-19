@@ -913,6 +913,18 @@ color: #F5F5F5;
     max-width: 53%;
 }
 
+@media screen and (max-width: 800px) {
+    .experience-desktop {
+        display: none;
+    }
+}
+
 .flex-container {
     display: flex;
+}
+
+@media screen and (max-width : 800px) {
+    .flex-container {
+        display: block;
+    }
 }
