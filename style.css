@@ -23,6 +23,14 @@ body{
     cursor: url("assets/img/cursor.png"), pointer;
 }
 
+@media screen and (max-width : 800px) {
+    .header {
+    background-color: #151515;
+}
+}
+
+
+
 .project-body {
     background: #161616 !important;
 }
@@ -62,6 +70,15 @@ body{
     color: white;
     font-size: 31px;
     font-weight: 600;
+}
+
+@media screen and (max-width : 800px) {
+    .nav-title {
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
 }
 .nav-link{
     display: flex;
@@ -105,10 +122,31 @@ body{
     border-radius: 3px;
 }
 
+@media screen and (max-width : 800px) {
+    .ide {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;  
+    background-color: #151515;
+    border-radius: 0px;
+}
+}
+
 .ide-buttons {
     display: flex;
     padding-top: 15px;
     margin-left: 15px;
+}
+
+@media screen and (max-width : 800px) {
+    .ide-buttons {
+        display: none;
+    }
 }
 
 .ide-btn-red {
@@ -144,18 +182,32 @@ body{
     margin-top: 16px;
 }
 
+@media screen and (max-width : 800px) {
+    .ide-white-line {
+        border: 0.5px solid #F5F5F5;
+        opacity: 0.5;
+        margin-top: 0px;
+    }
+}
+
+.ide-numbers-container {
+    position: relative;
+    border-right: 1px solid #F5F5F5;
+    margin-left: 29px;
+    opacity: 0.5;
+}
+
 .first-block {
     position: absolute;
-    top : 70px
+    top : 70px;
+ 
 }
 
 .second-block {
     position: absolute;
     top : 313px
 }
-.ide-numbers-container {
-    margin-left: 29px;
-}
+
 .numbers {
     color: white;
     opacity: 0.5;
@@ -169,11 +221,28 @@ body{
     position: absolute;
     border: 0.5px solid #F5F5F5;
     opacity: 0.5;
-    transform: rotate(90deg);
-    width: 517px;
-    bottom: 305px;
-    left: -200px;
+    height: 510px;
+    left: 30Px;
+    margin-top: 70px;
 }
+
+@media screen and (max-width : 800px) {
+    .ide-vertical-line {
+        position: absolute;
+        border: 0.5px solid #F5F5F5;
+        opacity: 0.5;
+        /* transform: rotate(-90deg); */
+        /* width: 493px; */
+        height: 519px;
+        /* bottom: 305px; */
+        /* left: -179px; */
+        /* top: 45Px; */
+        left: 30px;
+        margin-top: 64px;
+    }
+}
+
+
 
 .overview{
     color: #FFFBFE;
@@ -192,9 +261,28 @@ body{
     letter-spacing: 0.1em;
 }
 
+@media screen and (max-width : 800px) {
+    .main-text {
+        font-size: 15px;
+        color: #FFFBFE;
+        font-family: 'Epilogue', sans-serif;
+        padding-top: 85px;
+        margin-left: 85px;
+        letter-spacing: 0.1em;
+    }
+}
+
 .nickname-container {
     display: flex;
     padding-top: 7px;
+}
+
+@media screen and (max-width : 800px) {
+    .nickname-container {
+        display: flex;
+        padding-top: 7px;
+        max-width: 95%;
+    }
 }
 
 .nickname {
@@ -211,6 +299,24 @@ body{
     white-space: nowrap; 
     border-right: 2.5px solid orange; /* The typwriter cursor */
     font-weight: 800;
+}
+
+@media screen and (max-width : 800px) {
+    .nickname {
+        animation:typing 3.5s steps(30, end),
+        white-caret .5s step-end infinite;
+        overflow: hidden;
+        margin-left: 85px;
+        font-family: 'Epilogue', sans-serif;
+        font-size: 46px;
+        letter-spacing: 0.1em;
+        background: linear-gradient(270deg, #8478B3 0%, #D55ED4 33.18%, #ED805F 72.97%, #EED3A0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: inherit; 
+        border-right: 2.5px solid orange; /* The typwriter cursor */
+        font-weight: 800;
+    }
 }
 
 @keyframes white-caret {
@@ -236,6 +342,18 @@ body{
     max-width: 650px;
     margin-left: 85px;
     line-height: 25px;
+}
+
+@media screen and (max-width : 800px) {
+    .text-sub-nickname{
+        padding-top: 15px;
+        font-size: 15px;
+        font-family: 'Epilogue', sans-serif;
+        color: #FFFBFE;
+        max-width: 650px;
+        margin-left: 85px;
+        line-height: 25px;
+    }
 }
 
 .last-text {
