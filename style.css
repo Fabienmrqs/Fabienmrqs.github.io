@@ -182,9 +182,10 @@ body{
     margin-top: 16px;
 }
 
+
 @media screen and (max-width : 800px) {
     .ide-white-line {
-        border: 0.5px solid #F5F5F5;
+        border: 0.5px solid #151515;
         opacity: 0.5;
         margin-top: 0px;
     }
@@ -252,6 +253,16 @@ body{
     font-family: 'Epilogue', sans-serif;
 }
 
+@media screen and (max-width : 800px) {
+    .overview{
+        color: #FFFBFE;
+        opacity: 0.5;
+        margin-top: 120px;
+        margin-left: 85px;
+        font-family: 'Epilogue', sans-serif;
+    }
+}
+
 .main-text {
     font-size: 18px;
     color: #FFFBFE;
@@ -266,7 +277,7 @@ body{
         font-size: 15px;
         color: #FFFBFE;
         font-family: 'Epilogue', sans-serif;
-        padding-top: 85px;
+        padding-top: 35px;
         margin-left: 85px;
         letter-spacing: 0.1em;
     }
@@ -350,7 +361,7 @@ body{
         font-size: 15px;
         font-family: 'Epilogue', sans-serif;
         color: #FFFBFE;
-        max-width: 650px;
+        max-width: 67%;  
         margin-left: 85px;
         line-height: 25px;
     }
@@ -363,6 +374,17 @@ body{
     margin-left: 85px;
     font-family: 'Epilogue', sans-serif;
     font-size: 16px;
+}
+@media screen and (max-width : 800px) {
+    .last-text {
+        color: #FFFBFE;
+        opacity: 0.5;
+        margin-top: 38px;
+        margin-left: 85px;
+        font-family: 'Epilogue', sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+    }
 }
 
 .arrow-container {
@@ -411,12 +433,11 @@ body{
 @media screen and (max-width : 800px) {
     .ide-btn {
         position: initial;
-        
         display: flex;
         margin-right: auto;
         margin-left: auto;
-        width: 207px;
-        height: 48px;
+        width: 172px;
+        height: 45px;
         background: #BDBDBD;
         color: #222222;
         align-items: center;
