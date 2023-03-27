@@ -727,10 +727,14 @@ body{
     width: 94px;
     height: 30px;
     font-size: 14px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    z-index: 1;
+    position: absolute;
+    bottom: 15Px;
+    right: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .sebaclean-detail-title {

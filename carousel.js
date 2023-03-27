@@ -13,7 +13,7 @@ function reset() {
 
 next.addEventListener('click', function(){
     reset();
-    sectionIndex = sectionIndex < 2 ? sectionIndex + 1 : 2;
+    sectionIndex = sectionIndex < 3 ? sectionIndex + 1 : 3;
     slider.children[sectionIndex].style.zIndex = 1;
 
     slider.children[sectionIndex].style.opacity = 1;
