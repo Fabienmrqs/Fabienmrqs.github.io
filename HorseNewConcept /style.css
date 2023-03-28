@@ -199,6 +199,7 @@ height: 47px;
 
 .first-section {
     display: flex;
+    justify-content: center;
 }
 
 .red-line {
@@ -269,6 +270,7 @@ height: 47px;
 .second-section {
     display: flex;
     padding-top: 60px;
+    justify-content: center;
 }
 .second-section-right {
     padding-left: 24px;
