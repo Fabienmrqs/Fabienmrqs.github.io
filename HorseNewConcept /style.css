@@ -137,8 +137,7 @@ height: 47px;
 .product-items-container{
     padding-top: 48px;
     display: flex;
-    margin-left: 165px;
-
+    justify-content: center;
 }
 
 .product-img-container {
