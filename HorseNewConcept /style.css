@@ -73,7 +73,7 @@ height: 47px;
     background:url(./assets/img/BG\ header.png) no-repeat;
     height: 100%;
     margin-top: -35px;
-
+    background-size: cover;
 }
 
 .home-text {
