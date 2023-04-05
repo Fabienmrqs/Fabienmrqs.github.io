@@ -903,7 +903,6 @@ background: linear-gradient(270deg, #8478B3 0%, #D55ED4 62.18%, #ED805F 93.97%, 
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 1024px) {
@@ -918,7 +917,6 @@ text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-fill-color: transparent;
         }
 }
 
