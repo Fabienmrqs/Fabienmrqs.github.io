@@ -56,7 +56,8 @@ body{
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 11%;
+    margin-left: 160px;
+    margin-right: 160px;
     padding-top: 22px;
 }
 
